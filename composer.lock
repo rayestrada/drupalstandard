@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "819996a691576cbc6e86bb1bc418d1f5",
+    "content-hash": "547f1b6551be72c5b3752d03ebd9334f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -61,16 +61,6 @@
                 "source": "https://github.com/asm89/stack-cors/tree/v2.1.1"
             },
             "time": "2022-01-18T09:12:03+00:00"
-        },
-        {
-            "name": "bixal/bixaluswds",
-            "version": "1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Bixal/bixaluswds.git",
-                "reference": "v0.0.2"
-            },
-            "type": "drupal-theme"
         },
         {
             "name": "chi-teck/drupal-code-generator",

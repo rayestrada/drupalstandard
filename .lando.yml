@@ -21,10 +21,11 @@ tooling:
       - drush cr
   set:
     service: appserver
-    description: Creates a settings.local file
+    description: Creates a settings.local file and installs composer dependencies
     cmd:
       - cp /app/.lando/settings.local.php /app/web/sites
       - cp /app/.lando/services.local.yml /app/web/sites
+      - composer install
 events:
   post-set:
     - echo "Successfully enabled local development settings and services files!"
