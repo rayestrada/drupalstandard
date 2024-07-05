@@ -16,7 +16,7 @@ Be sure that you have installed Lando, see their documentation. [Lando: Installa
 
 
 ### Setup for theme contribution
-This process will add a nested repository in the `web/custom/contrib` directory. Speak with your supervisor if you need more guidance on how to manage navigate a nested repository.
+This process will add a nested repository in the `web/custom/contrib` directory. Speak with your supervisor if you need more guidance on how to manage or navigate a nested repository.
 1. Run `scripts/theme_contrib.sh`
 2. Enter the base theme nested repository `cd web/themes/contrib/bixaluswds`
 3. Add your forked remote `git remote add fork git@github.com:YOUR-GITHUB-USER/bixaluswds.git` and `git fetch --all`

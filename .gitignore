@@ -71,3 +71,6 @@ Thumbs.db
 /web/sites/services.local.yml
 /web/sites/settings.local.php
 .lando.local.yml
+
+# Ignore custom themes for this demo
+/web/themes/custom
